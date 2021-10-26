@@ -1,0 +1,293 @@
+\documentclass[a4paper,MMMyyyy,nonstopmode]{simpleresumecv}
+% Class options:
+% a4paper, letterpaper, nonstopmode, draftmode
+% MMMyyyy, ddMMMyyyy, MMMMyyyy, ddMMMMyyyy, yyyyMMdd, yyyyMM, yyyy
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Chuanjin SU}
+\newcommand{\CVTitle}{Chuanjin's CV}
+\newcommand{\CVNote}{CV compiled on {\today}}
+
+% PDF settings and properties.
+\hypersetup{
+pdftitle={\CVTitle},
+pdfauthor={\CVAuthor},
+pdfcreator={XeLaTeX},
+pdfproducer={},
+pdfkeywords={},
+unicode=true,
+% bookmarks=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+\pagestyle{empty}
+
+% Shorthand.
+\newcommand{\Code}[1]{\mbox{\textbf{#1}}}
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\Title{\CVAuthor}
+
+\begin{SubTitle}
+\href{https://www.google.com/maps/place/1+Rue+Joliot+Curie,+91190+Gif-sur-Yvette/@48.710118,2.1622836,17z/data=!3m1!4b1!4m5!3m4!1s0x47e67f453e6e1045:0xd3bacd72705f3428!8m2!3d48.710118!4d2.1644723}
+{1 rue Joliot Curie, 4CC207 Résidence CESAL, 91190 Gif-sur-Yvette, France}
+\par
+\href{mailto:chuanjin.su@student-cs.fr}
+{chuanjin.su@student-cs.fr}
+\,\SubBulletSymbol\,
++33\ (0)7 69 54 63 41
+\end{SubTitle}
+
+\begin{Body}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Education}
+{Education}
+{PDF:Education}
+
+\Entry
+\href{http://www.centralesupelec.fr/}
+{\textbf{École CentraleSupélec}}, Gif-sur-Yvette / Metz, France
+\hfill
+\DatestampYMD{2018}{09}{} -- expected
+\DatestampYMD{2020}{06}{}
+
+\Gap
+\BulletItem
+Double-degree General Engineer
+\BigGap
+\Entry
+\href{http://www.u-psud.fr/}
+{\textbf{Université Paris-Sud}},
+Orsay, France
+\hfill
+\DatestampYMD{2018}{10}{} -- 
+\DatestampYMD{2019}{06}{}
+
+\Gap
+\BulletItem
+Dual diploma in L3 Mathematics
+
+\BigGap
+\Entry
+\href{http://www.tsinghua.edu.cn/publish/thu2018en/index.html}
+{\textbf{Tsinghua University}},
+Beijing, China
+\hfill
+\DatestampYMD{2016}{08}{} -- 
+\DatestampYMD{2018}{07}{}
+
+\Gap
+\BulletItem
+Bachelor degree in 
+\href{http://www.hy.tsinghua.edu.cn/publish/hyen/index.html}
+{Aerospace Engineering}
+\begin{Detail}
+    \SubBulletItem
+    Ranking: 5/59 (2016 Summer -- 2017 Spring)
+\end{Detail}
+
+\Gap
+\BulletItem
+Admitted to Sino-France 4+4 Program (Tsinghua Univ. \& CentraleSupélec)
+\begin{Detail}
+    \SubBulletItem
+    Undergraduate in Tsinghua University 
+    \DatestampYMD{2016}{08}{} -- 
+    \DatestampYMD{2018}{07}{}
+    \SubBulletItem
+    Engineering Student in CentraleSupélec 
+    \DatestampYMD{2018}{09}{} -- expected
+    \DatestampYMD{2020}{06}{}
+    \SubBulletItem
+    Master in Thermodynamic Engineering in Tsinghua University
+    expected \DatestampYMD{2020}{09}{} -- 
+    \DatestampYMD{2022}{07}{}
+\end{Detail}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% AWARDS & SCHOLARSHIPS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Awards \&\newline
+Scholarships}
+{Awards \& Scholarships}
+{PDF:AwardsAndScholarships}
+
+\Entry
+\textbf{China Scholarship Council (CSC) Scholarship}
+\hfill
+\DatestampYM{2018}{07} --
+\DatestampYM{2020}{06}
+\Item
+For government-sponsored overseas students.
+
+\Gap
+\Entry
+\textbf{Tsinghua's Friend -- Zheng Geru Scholarship}
+\hfill
+\DatestampYM{2017}{09}
+\Item
+For top 20\% students in Tsinghua University.
+
+\Gap
+\Entry
+\textbf{Insight Astronomy Photographer of the Year}, Runner-up
+\hfill
+\DatestampYM{2018}{09}
+\Item
+For talented astro-photographer. Won by the work \textsl{Eclipsed Moon Trail}.
+
+\Gap
+\Entry
+\textbf{Tsinghua University Scholarship for Art}
+\hfill
+\DatestampYM{2017}{09}
+\Item
+For outstanding students in art fields.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTIVITIES & INTERNSHIP %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Section
+{Researches \& Internships}
+{Researches \& Internships}
+{PDF:Researches \& Internships}
+
+\Entry
+\textbf{ANEO HPC (High-performance computing) Project}, CentraleSupélec
+\hfill
+\DatestampYM{2020}{3} -- \DatestampYM{2020}{4}
+\Gap
+\BulletItem
+Developed and deployed a genetic algorithm to schedule tasks using MPI multiprocessing
+\BigGap
+
+\Entry
+\textbf{Semi-Autonomous Drone Navigation Project}, CentraleSupélec Campus Metz
+\hfill
+\DatestampYM{2019}{11}
+\Gap
+\BulletItem
+Achieved semi-autonomous control in level of behavior, using Parrot Bebop 2
+\BulletItem
+Implemented basic PID control algorithm and visual processing algorithm
+\BigGap
+
+\Entry
+\textbf{Renault Worker Internship}, Renault Flins Plant
+\hfill
+\DatestampYM{2019}{07} -- 
+\DatestampYM{2019}{08}
+\Gap
+\BulletItem
+Worked 8 hours a day in 5 weeks on assembly line
+\BulletItem
+Responsible for installation of batteries of Renault Clio, Renault Zoé, and Nissan Micra
+\BigGap
+
+\Entry
+\textbf{EDF IoT Challenge Week}, CentraleSupélec
+\hfill
+\DatestampYM{2019}{06}
+\Gap
+\BulletItem
+Proposed an efficient method to predict real-time power in a wind farm, using machine learning
+\BigGap
+
+\Entry
+\textbf{TCL 5G Project}, CentraleSupélec
+\hfill
+\DatestampYM{2019}{03} -- 
+\DatestampYM{2019}{06}
+\Gap
+\BulletItem
+Project of first-year engineering student, advised by Prof. Mohamad Assaad
+\BulletItem
+Implemented, tested, and optimized a queue-aware energy efficient control algorithm for dense wireless networks
+\BigGap
+
+\Entry
+\textbf{Coding Weeks}, CentraleSupélec
+\hfill
+\DatestampYM{2018}{11}
+\Gap
+\BulletItem
+Two-week cooperation project between CentraleSupélec and \href{https://www.tnpconsultants.com/fr}{TNP Paris Conseil}
+\BulletItem
+Developed a dashboard to help Carrefour enhance the transparency and visibility of its social media data through data science
+\BigGap
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\Section
+{Skills}
+{Skills}
+{PDF:Skills}
+\Entry
+\textbf{Languages}
+\Gap
+\BulletItem
+\textbf{English}: IELTS 7.5, \textbf{French}: Preparing B2, fully capable of learning and working, \textbf{Chinese}
+
+\Gap
+
+\Entry
+\textbf{Softwares and Programming}
+\Gap
+\BulletItem
+\textbf{Python},
+\textbf{MATLAB},
+Fortran,
+C/C++,
+ROS,
+{\LaTeX},
+\BulletItem
+Microsoft Office, AutoCAD, Solidworks, COMSOL,
+Adobe Photoshop \& Lightroom
+
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\Section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+\Entry
+\href{https://500px.me/scj16}{\textbf{Photography:}} Astro-Photography, Landscape Photography
+
+\Entry
+\textbf{Sports:} Swimming, Running, Football
+\end{Body}
+\end{document}
